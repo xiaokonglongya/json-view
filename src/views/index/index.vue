@@ -1,4 +1,6 @@
 <template>
-  <div>首页</div>
+  <div><JSONEditor /></div>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import JSONEditor from "@/components/Jsoneditor/index.vue";
+</script>

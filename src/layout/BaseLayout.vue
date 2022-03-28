@@ -1,20 +1,11 @@
 <template>
   <div class="app">
-    <div>
-      <Header />
-    </div>
     <div class="content">
       <router-view></router-view>
     </div>
-    <div>
-      <Footer />
-    </div>
   </div>
 </template>
-<script setup lang="ts">
-import Header from "./Components/Header.vue";
-import Footer from "./Components/Footer.vue";
-</script>
+<script setup lang="ts"></script>
 <style lang="less" scoped>
 .app {
   display: flex;
